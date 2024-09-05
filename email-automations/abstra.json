@@ -1,0 +1,44 @@
+{
+  "workspace": {
+    "name": "Workspace",
+    "language": "en",
+    "theme": null,
+    "logo_url": "./logo.png",
+    "favicon_url": "./favicon.ico",
+    "brand_name": "Abstra Project",
+    "main_color": null,
+    "font_family": null,
+    "font_color": null
+  },
+  "kanban": {
+    "access_control": {
+      "is_public": false,
+      "required_roles": []
+    }
+  },
+  "home": {
+    "access_control": {
+      "is_public": false,
+      "required_roles": []
+    }
+  },
+  "jobs": [],
+  "hooks": [],
+  "forms": [],
+  "scripts": [
+    {
+      "id": "fc468b5b-1235-4cbb-8f99-7bf6ad20afed",
+      "file": "send_gmail.py",
+      "title": "Send Gmail",
+      "is_initial": true,
+      "workflow_position": [
+        0.0,
+        0.0
+      ],
+      "transitions": []
+    }
+  ],
+  "iterators": [],
+  "conditions": [],
+  "version": "11.0"
+}
