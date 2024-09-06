@@ -31,9 +31,8 @@ html_card = """
     <title>Welcome Email</title>
 </head>
 <body style="font-family: Arial, sans-serif; background-color: #fffff; margin: 0; padding: 0;">
-    <div style="max-width: 960px; margin: 0 auto; padding: 50px;">
+    <div style="max-width: 960px; margin: 0 auto; padding: 50px 0 50px 0;">
         <div style="background-color: #ffe0ef; width: 300px; margin: 0 auto; padding: 20px; border-radius: 10px; text-align: center;">
-            <img src="https://via.placeholder.com/300x150" alt="Welcome Image" style="width: 100%; border-radius: 8px;">
             <h1 style="font-size: 24px; color: #333;">Welcome to Our Service</h1>
             <p style="font-size: 16px; color: #666;">Your journey starts here!</p>
         </div>
@@ -42,7 +41,7 @@ html_card = """
 </html>
 """
 
-file_path = 'Test.pdf'
+file_path = 'attachment.pdf'
 
 # Create the email message with multiple parts
 message = MIMEMultipart()
